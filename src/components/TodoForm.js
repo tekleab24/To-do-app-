@@ -30,7 +30,8 @@ function TodoForm(props) {
     <input type='text' 
     placeholder='Add a Todo' 
     value={input} 
-    name='text' className='todo-input' 
+    name='text' 
+    lassName='todo-input' 
     onChange={handlechange}
     ref={inputRef}
     className='todo-input edit'

@@ -21,6 +21,7 @@
     margin: 128px auto;
     border-radius: 30px;
     padding-bottom: 32px;
+    box-shadow: 0px 0px 200px -50px rgba(0, 0, 0, 0.5);
   }
   
   h1 {
@@ -93,10 +94,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 4px auto;
+    margin: 8px auto;
     color: #303d39;
     background: #f8f7f2;
-    border: 1px, solid, #303d39;
+    /* border: 1px, solid, #303d39; */
 
     padding: 16px;
     border-radius: 5px;
@@ -136,9 +137,9 @@
   
   .delete-icon {
     margin-right: 5px;
-    color: #fff;
+    color: #303d39;
   }
   
   .edit-icon {
-    color: #fff;
+    color: #303d39;
   }

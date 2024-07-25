@@ -50,6 +50,7 @@ const completeTodo = id => {
       completeTodo={completeTodo} 
       removeTodo={removeTodo} 
       updatedTodo={updatedTodo}/>
+
     </div>
   )
 }
