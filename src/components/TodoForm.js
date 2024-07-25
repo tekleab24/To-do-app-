@@ -28,7 +28,7 @@ function TodoForm(props) {
     <form className = "todo-form" 
     onSubmit={handleSubmit}> 
     <input type='text' 
-    placeholder='Add a Todo' 
+    placeholder='Add to the list' 
     value={input} 
     name='text' 
     lassName='todo-input' 

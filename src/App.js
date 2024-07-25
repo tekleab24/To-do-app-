@@ -7,6 +7,8 @@ function App() {
   return (
     <div className="todo-app">
       <h1>Get Busy</h1>
+      <div className='divider'></div>
+
       <TodoList/> 
     </div>
   );

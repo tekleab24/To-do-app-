@@ -31,7 +31,7 @@ function Todo({todos, completeTodo, removeTodo, updatedTodo}) {
         >
 
         <div key = {todo.id} onClick={() => completeTodo(todo.id)}>
-        {todo.text}
+      {todo.text}
         </div>
 
         <div className='icons'>
@@ -43,6 +43,7 @@ function Todo({todos, completeTodo, removeTodo, updatedTodo}) {
             className='edit-icon' />
 
         </div>
+        
 
     </div>
   ) )
